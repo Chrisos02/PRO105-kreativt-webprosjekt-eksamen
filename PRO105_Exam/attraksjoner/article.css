@@ -1,0 +1,28 @@
+.Newexpand {
+  border-radius: 7px;
+  height: 50px;
+  width: 75px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: 0s;
+}
+
+.Newexpand:hover {
+  height: 250px;
+  width: 300px;
+  background-color: #e8843c;
+}
+
+.article{
+  position: fixed;
+}
+
+.artimg{
+  margin-right: 15px;
+  float: left;
+  height: 50px;
+  width: 75px;
+}

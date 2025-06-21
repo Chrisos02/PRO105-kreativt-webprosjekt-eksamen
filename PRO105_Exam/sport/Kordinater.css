@@ -1,0 +1,43 @@
+/*
+Det er posisjonene til bildene som er lagt in på karte 
+*/
+#A1{
+  height:50px;
+  width: 75px;
+  margin-left: 72%;
+  margin-top: 32%;
+}
+
+#A2{
+  margin-left: 15%;
+  margin-top: 27%;
+}
+
+#A3{
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.rugby{
+  width: 5%;
+  top: 93%;
+  left: 24%;
+  display: flex;
+  position: absolute;
+  animation-name: rugby,RugbyKonge;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes RugbyKonge{
+  0%{
+    left: -8%;
+    opacity: 0.5%;
+  }
+  100%{
+    left: 92%;
+  }
+}
+

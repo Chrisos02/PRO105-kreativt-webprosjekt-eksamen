@@ -1,0 +1,65 @@
+.expand {
+  border-radius: 6px;
+  height: 50px;
+  width: 75px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: 0s;
+}
+
+#btnDiv{
+  position: absolute;
+}
+
+.buttn {
+  position: relative;
+  border: 5px outset #b6782bed;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+  background-color: #b6782bed;    
+  text-align: center;
+  color: #3b2408;
+}
+
+.buttn:hover{
+  background-color: #eb9834;
+  border: 5px inset #b6782bed;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+.expand:hover {
+  height: 200px;
+  width: 12vw;
+  background-color: white;
+  font-size: 17px;
+   line-height: 20px;
+   /*margin: 40px;*/
+}
+
+
+.article{
+  position: fixed;
+}
+
+.artimg{
+  margin-right: 14px;
+  float: left;
+  height:50px; 
+  width:75px;
+}

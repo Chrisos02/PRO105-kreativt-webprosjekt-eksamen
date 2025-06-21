@@ -1,0 +1,62 @@
+/* css-document for styling the html-page */
+
+/* border definer */
+body{
+  border: 10px solid #eb9834;
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  margin: 0%;
+}
+
+/* background image positioner */
+#map{
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+/* placer of navigation buttons */
+#btnDiv{
+  position: absolute;
+}
+
+/* stylers for buttons and link-text */
+.buttn {
+  position: relative;
+  border: 5px outset #b6782bed;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+  background-color: #b6782bed;    
+  text-align: center;
+  color: #3b2408;
+}
+
+.buttn:hover{
+  background-color: #eb9834;
+  border: 5px inset #b6782bed;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}

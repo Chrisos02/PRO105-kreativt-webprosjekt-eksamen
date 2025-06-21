@@ -1,0 +1,34 @@
+/* css-document for styling and controlling articles */
+
+/* styles the article before expansion */
+.expand {
+  border-radius: 7px;
+  height: 50px;
+  width: 75px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: 0s;
+}
+
+/* styles and controlls the expansion */
+.expand:hover {
+  height: 200px;
+  width: 50vw;
+  background-color: #e8843c;
+}
+
+/* fixes the article in place */
+.article{
+  position: fixed;
+}
+
+/* controls the position of the image in the article */
+.artimg{
+  margin-right: 15px;
+  float: left;
+  height: 50px;
+  width: 75px;
+}

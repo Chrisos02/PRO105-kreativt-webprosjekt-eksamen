@@ -1,0 +1,132 @@
+.expand {
+  border-radius: 8px;
+  height: 50px;
+  width: 75px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: 0s;
+  opacity: 0.9;
+}
+
+.expand:hover {
+  height: 230px;
+  width: 20vw;
+  background-color: rgb(110, 148, 230);
+}
+
+.article{
+  position: fixed;
+}
+
+.artimg{
+  margin-right: 15px;
+  float: left;
+  height: 50px;
+  width: 75px;
+}
+
+.articleP {
+  font-size: 17px;
+}
+
+/* Animasjon */
+.Sharkswim {
+  width: 6%;
+  top: 94%;
+  left: 25%;
+  position: absolute;
+  animation-name: sharkDrive;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);         /* måtte snu bildet*/
+}
+
+@keyframes sharkDrive {
+  0% {
+      left: -7.5%;
+  }
+  100% {
+      left: 94%;
+      opacity: 0.01;
+  }
+}
+
+/*Hover og plassering, compass*/
+.compass {
+  padding: 5px;
+  transition: transform .36s;
+  width: 5%;
+  top: 76%;
+  left: 6%;
+  position: absolute;
+}
+
+.compass:hover {
+  transform: scale(3);
+}
+
+
+/*Buttons*/
+#btnDiv{
+  position: absolute;
+}
+
+/*Plassering, buttons*/
+#btnDiv{
+  position: absolute;
+}
+
+
+/*Design, buttons*/
+.buttn {
+  position: relative;
+  border: 5px outset #b6782bed;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+  background-color: #b6782bed;    
+  text-align: center;
+  color: #3b2408;
+}
+
+.buttn:hover{
+  background-color: #eb9834;
+  border: 5px inset #b6782bed;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+.koala {
+  width: 10%;
+  position: absolute;
+  top: -2%;
+  left: 90.7%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); 
+}
+
+.Finchbird {
+  width: 8%;
+  position: absolute;
+  top: 45%;
+  left: 93%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); 
+}
